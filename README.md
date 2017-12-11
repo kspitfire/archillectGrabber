@@ -3,7 +3,7 @@
 It's very raw Archillect image grabber on PHP.
 
 ## Requirements
-PHP 7.0 or higher
+PHP 7.0 or higher, php-cli
 
 ## Usage
 Run from console (project dir):
