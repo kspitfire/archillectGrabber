@@ -11,7 +11,7 @@ $stop = (int) $currentOptions['stop'];
 
 echo 'Starting ...'.PHP_EOL;
 
-if (!file_exists($path) && is_writable($path)) {
+if (false === file_exists($path)) {
 	try {
 	    mkdir($path);
 	} catch(\Exception $ex) {
