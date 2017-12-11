@@ -12,7 +12,7 @@ Run from console (project dir):
 
 Options:
 
-	-id     - Save Image with pointed id
+	-id     - Save Image by id
 	--start - Starting ID range for downloading
-	--stop  - End ID range for downloading
+	--stop  - Ending ID range for downloading
 	--path  - Download folder (if empty, trying to create 'archillect_images' dir in a current) 
